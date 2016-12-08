@@ -6,10 +6,8 @@ A c-language program can auto reconnect to the wifi which was specified using ne
 2. Add the program to "Start-up".
 
 ## Be careful
-1. The WiFi you specified must be no password or saved;
-2. The WiFi must existed.
-
-**Or you will never connect to the net! :)**
+1. The WiFi must existed;
+2. The WiFi you specified must have been saved.
 
 ---
 Copyright (C) 2000-2016 [Wuifan](https://Wuifan.com).
