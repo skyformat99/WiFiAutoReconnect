@@ -27,7 +27,7 @@ int PingCheck(int times) {
     memset(Return, 0, 128);
     while(fgets(Return, 128, fp) != NULL) {
       //printf("[Debug] %s",Return);
-      if(strstr(Return,"ÇëÇóÕÒ²»µ½Ö÷»ú") != NULL ||
+      if(strstr(Return,"è¯·æ±‚æ‰¾ä¸åˆ°ä¸»æœº") != NULL ||
          strstr(Return,"could not find host") != NULL) {
    	    state = 0;
       }
