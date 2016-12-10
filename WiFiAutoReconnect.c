@@ -45,7 +45,7 @@ void CheckAndRepair() {
   if(ret) {
     printf("[O] Net is connecting!\n");
   } else if(ret == 0) {
-    printf("[?] Net may be disconnected!Retrying...\n");
+    printf("[?] Net may be disconnected! Retrying...\n");
     ret = PingCheck(5);
     if(ret) {
       printf("[O] Net is connecting!\n");
@@ -56,12 +56,12 @@ void CheckAndRepair() {
       system(cmd);
       printf("[?] Completed execution! Waiting to check...\n");
       Sleep(10000);
-      CheckAndRepair(WiFiSSID);
+      CheckAndRepair();
     } else {
-      CheckAndRepair(WiFiSSID);
+      CheckAndRepair();
     }
   } else {
-    CheckAndRepair(WiFiSSID);
+    CheckAndRepair();
   }
 }
 
