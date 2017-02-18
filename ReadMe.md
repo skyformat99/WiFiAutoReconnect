@@ -1,7 +1,7 @@
 # WiFiAutoReconnect
 A c-language program can auto reconnect to the wifi which was specified using netsh when net was disconnected.
 
-[See WiFiAutoReconnect4Python](https://wuifan.com/read/WiFiAutoReconnect.html)
+[See WiFiAutoReconnect4Python](https://wuifan.com/read/7.html)
 
 ## How to use
 1. Compile after changing the WiFiSSID, CheckServer and CheckInterval;
